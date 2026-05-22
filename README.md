@@ -54,4 +54,4 @@ The modular notebooks are tied sequentially using Databricks Workflows ensuring 
 
 | Databricks Workflow Status | Gold Layer Sample Data | Data Architecture Diagram |
 | :---: | :---: | :---: |
-| ![Pipeline Workflow](./Docs/data_pipeline.png) | ![Sample data from gold layer](./Docs/Gold_layer.png) | ![Data Architecture](./Docs/pipeline_architecture.png) |
+| ![Pipeline Workflow](./Docs/data_pipeline.png) | ![Sample data from gold layer](./Docs/Gold_layer.png) | ![Data Architecture](./Docs/data_architure.png) |
