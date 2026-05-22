@@ -50,4 +50,5 @@ Storage: Saved into the analytical Delta reporting table: main.default.gold_cars
 🔄 Pipeline Orchestration (Workflows)
 The modular notebooks are tied sequentially using Databricks Workflows ensuring strict dependency routing. Downstream tasks progress sequentially only upon the successful completion of the preceding phase.
 
-📈 Workflow Execution Status
+### 📈 Workflow Execution Status
+![Pipeline Workflow](./Docs/data_pipeline.png)
