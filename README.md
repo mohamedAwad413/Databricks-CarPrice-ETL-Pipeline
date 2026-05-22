@@ -7,7 +7,7 @@ This project demonstrates a production-ready, automated data engineering pipelin
 
 ## 📂 Project Structure
 
-```text
+```
 Databricks-CarPrice-ETL-Pipeline/
 │
 ├── notebooks/                  # Exported Databricks notebooks containing execution source code
@@ -19,7 +19,7 @@ Databricks-CarPrice-ETL-Pipeline/
 │   └── workflow_pipeline.png   # Production snapshot confirming successful workflow run
 │
 └── README.md                   # Main documentation landing page
-
+```
 🛠️ Tech Stack
 Apache Spark / PySpark: Distributed computing engine for scalable data transformations.
 
