@@ -50,17 +50,25 @@ Storage: Saved into the analytical Delta reporting table: main.default.gold_cars
 🔄 Pipeline Orchestration (Workflows)
 The modular notebooks are tied sequentially using Databricks Workflows ensuring strict dependency routing. Downstream tasks progress sequentially only upon the successful completion of the preceding phase.
 
-### 📈 Project Metrics & Workflow Status
+---
 
-### 📈 Project Metrics & Workflow Status
+## 📈 Project Metrics & Execution Status
 
-| Databricks Workflow Status | Gold Layer Sample Data |
-| :---: | :---: |
-| ![Pipeline Workflow](./Docs/data_pipeline.png) | ![Sample data from gold layer](./Docs/Gold_layer.png) |
+### 1️⃣ Databricks Workflow Orchestration
+The pipeline runs end-to-end automatically through Databricks Workflows. Below is the orchestration execution status confirming the successful sequential completion of all tasks:
+
+![Pipeline Workflow](./Docs/data_pipeline.png)
 
 ---
 
-### 📐 Data Architecture Diagram
-To ensure clear visibility of the data flow, the Medallion Architecture and system orchestration details are mapped out below:
+### 2️⃣ Data Architecture Diagram
+The layout below illustrates the Medallion Architecture (Bronze, Silver, Gold layers) and data governance managed entirely via Unity Catalog and PySpark:
 
 ![Data Architecture](./Docs/data_architure.jpg)
+
+---
+
+### 3️⃣ Gold Layer Analytical Output Sample
+A snapshot of the finalized reporting table from the Gold Layer (`main.default.gold_cars_analysis`), delivering direct business values such as car counts and average prices grouped by brand:
+
+![Sample data from gold layer](./Docs/Gold_layer.png)
