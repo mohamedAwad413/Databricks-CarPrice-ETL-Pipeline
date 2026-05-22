@@ -16,8 +16,8 @@ Databricks-CarPrice-ETL-Pipeline/
 │   └── 03_gold_layer.py        # Business Aggregations: Computes metrics and insights by car brand
 │
 ├── images/                     # Project documentation assets
-│   └── workflow_pipeline.png   # Production snapshot confirming successful workflow run
-│
+│   └── data_pipeline.png       # Production snapshot confirming successful workflow run
+│   └── Gold_layer.png
 └── README.md                   # Main documentation landing page
 ```
 🛠️ Tech Stack
