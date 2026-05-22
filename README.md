@@ -52,6 +52,15 @@ The modular notebooks are tied sequentially using Databricks Workflows ensuring 
 
 ### 📈 Project Metrics & Workflow Status
 
-| Databricks Workflow Status | Gold Layer Sample Data | Data Architecture Diagram |
-| :---: | :---: | :---: |
-| ![Pipeline Workflow](./Docs/data_pipeline.png) | ![Sample data from gold layer](./Docs/Gold_layer.png) | ![Data Architecture](./Docs/data_architure.png) |
+### 📈 Project Metrics & Workflow Status
+
+| Databricks Workflow Status | Gold Layer Sample Data |
+| :---: | :---: |
+| ![Pipeline Workflow](./Docs/data_pipeline.png) | ![Sample data from gold layer](./Docs/Gold_layer.png) |
+
+---
+
+### 📐 Data Architecture Diagram
+To ensure clear visibility of the data flow, the Medallion Architecture and system orchestration details are mapped out below:
+
+![Data Architecture](./Docs/data_architure.png)
