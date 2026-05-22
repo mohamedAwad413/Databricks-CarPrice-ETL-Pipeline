@@ -51,6 +51,7 @@ Storage: Saved into the analytical Delta reporting table: main.default.gold_cars
 The modular notebooks are tied sequentially using Databricks Workflows ensuring strict dependency routing. Downstream tasks progress sequentially only upon the successful completion of the preceding phase.
 
 ### 📈 Project Metrics & Workflow Status
-| Databricks Workflow Status | Sample Data - Gold layer |
-| :---: | :---: |
-| ![Pipeline Workflow](./Docs/data_pipeline.png) | ![Sample data from gold layer](./Docs/Gold_layer.png) | ![Data Architure](./Docs/data_architure.png)
+
+| Databricks Workflow Status | Gold Layer Sample Data | Data Architecture Diagram |
+| :---: | :---: | :---: |
+| ![Pipeline Workflow](./Docs/data_pipeline.png) | ![Sample data from gold layer](./Docs/Gold_layer.png) | ![Data Architecture](./Docs/pipeline_architecture.png) |
