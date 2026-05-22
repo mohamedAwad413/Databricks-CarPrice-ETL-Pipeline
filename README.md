@@ -17,8 +17,9 @@ Databricks-CarPrice-ETL-Pipeline/
 │
 ├── images/                     # Project documentation assets
 │   └── data_pipeline.png       # Production snapshot confirming successful workflow run
-│   └── Gold_layer.png
-└── README.md                   # Main documentation landing page
+│   └── data_architure.jpg
+    └── Gold_layer.png
+└── README.d                   # Main documentation landing page
 ```
 🛠️ Tech Stack
 Apache Spark / PySpark: Distributed computing engine for scalable data transformations.
