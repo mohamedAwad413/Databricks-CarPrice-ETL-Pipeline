@@ -63,4 +63,4 @@ The modular notebooks are tied sequentially using Databricks Workflows ensuring 
 ### 📐 Data Architecture Diagram
 To ensure clear visibility of the data flow, the Medallion Architecture and system orchestration details are mapped out below:
 
-![Data Architecture](./Docs/data_architure.png)
+![Data Architecture](./Docs/data_architure.jpg)
